@@ -22,6 +22,10 @@ public class Book {
         this.author=author;
     }
 
+    /*
+     * Método que muestra el valor del atributo autor.
+     * @return devuelve el resultado de la operación.
+     */
     public String nameAuthor(){
         return this.author;
     }

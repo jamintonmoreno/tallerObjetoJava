@@ -36,8 +36,8 @@ public class Fruit {
     }
 
     /*
-     * Muestra el valor del atributo
-     * @return devuelve el valor del atributo name.
+     * Método que muestra el valor del atributo nombre.
+     * @return devuelve el resultado de la operación.
      */
     public String nameFruit(){
         return this.name;

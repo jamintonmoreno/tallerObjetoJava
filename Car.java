@@ -21,6 +21,10 @@ public class Car {
         this.brand=brand;
      }
 
+    /*
+     * Método que muestra el valor del atributo marca.
+     * @return devuelve el resultado de la operación.
+     */
      public String carName(){
         return this.brand;
      }

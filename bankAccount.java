@@ -34,8 +34,8 @@ public class bankAccount {
     }
 
     /*
-     * Muestra el valor del atributo.
-     * @return devuelve el valor del atributo accountNumber.
+     * Método que muestra el valor del atributo número de cuenta.
+     * @return devuelve el resultado de la operación.
      */
     public int numberAccount(){
         return this.accountNumber;
