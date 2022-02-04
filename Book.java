@@ -6,7 +6,7 @@ public class Book {
     /*
      * Representa los atributos de la clase Libro.
      */
-    public String author;
+    protected String author;
     public String titleBook;
     private String publisher;
     public int yearPublished;

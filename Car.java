@@ -7,7 +7,7 @@ public class Car {
      * Representa los atributos de la clase Carro.
      */
     public String brand;
-    public String model;
+    protected String model;
     private float price;
     public String color;
 

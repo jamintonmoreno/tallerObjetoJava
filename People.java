@@ -10,8 +10,24 @@ public class People {
     public String name;
     public String lastName1;
     public String lastName2;
-    public Date dateBirth;
-    public float height;
+    protected Date dateBirth;
+    private float height;
+
+    /*
+     * Permite mostrar el valor al atributo privado de la clase Persona.
+     */
+    public float getHeight() {
+        return height;
+    }
+
+    /*
+     * Permite darle un valor al atributo privado de la clase Persona.
+     */
+    public void setHeight(float height) {
+        this.height = height;
+    }
+
+
 
     /*
      * Crea una instancia de la clase persona.

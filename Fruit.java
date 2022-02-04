@@ -11,6 +11,7 @@ public class Fruit {
     public String name;
     private float averageWeight;
     public ArrayList<String> colors;
+    protected String size;
 
     /*
      * Permite darle un valor al atributo privado de la clase Fruta.
