@@ -12,10 +12,16 @@ public class Fruit {
     private float averageWeight;
     public ArrayList<String> colors;
 
+    /*
+     * Permite darle un valor al atributo privado de la clase Fruta.
+     */
     public void setAverageWeight(float averageWeight) {
         this.averageWeight = averageWeight;
     }
 
+    /*
+     * Permite mostrar el valor al atributo privado de la clase Fruta.
+     */
     public float getAverageWeight() {
         return averageWeight;
     }

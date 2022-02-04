@@ -1,7 +1,7 @@
 
 import java.util.Date;
 /*
- * Representa una persona y sus principales atributos
+ * Representa una persona y sus principales atributos.
  */
 public class People {
     /*

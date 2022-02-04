@@ -8,15 +8,21 @@ public class bankAccount {
      */
     private int accountNumber;
     protected boolean activated;
+    public String userAccount;
 
+    /*
+     * Permite darle un valor al atributo privado de la clase Cuenta Bancaria.
+     */
     public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
     }
 
+    /*
+     * Permite mostrar el valor al atributo privado de la clase Cuenta Bancaria.
+     */
     public int getAccountNumber() {
         return accountNumber;
     }
-
 
     /*
      * Crea una instancia de la clase cuenta bancaria.
